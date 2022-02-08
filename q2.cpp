@@ -2,7 +2,7 @@
 // Omar Yossuf
 #include <iostream>
 using namespace std;
-int main(){
+void reverse(){
     int num,rev=0;
     
     cout<<"please enter a number: ";
@@ -14,5 +14,9 @@ int main(){
         num/=10;
     }
     cout<<"result: "<<rev<<endl;
+    
+}
+int main(){
+    reverse();
     return 0;
 }
